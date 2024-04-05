@@ -16,6 +16,6 @@ WORKDIR /app
 
 COPY --from=builder /app/free-gpt3.5-2api /app/free-gpt3.5-2api
 
-EXPOSE 8080
+EXPOSE 3040
 
 CMD [ "./free-gpt3.5-2api" ]
